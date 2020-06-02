@@ -1,0 +1,15 @@
+.list {
+  margin-bottom: 20px;
+}
+
+.list li {
+  font-size: 22px;
+}
+
+.list li button {
+  cursor: pointer;
+  font-size: 22px;
+  background-color: inherit;
+  border: inherit;  
+}
+
