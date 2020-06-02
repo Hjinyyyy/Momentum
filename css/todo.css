@@ -1,15 +1,44 @@
+.to-do form {
+  text-align: center;
+}
+
+.to-do input {  
+  font-size: 18px;
+  border-bottom: 2px solid white;
+}
+
 .list {
   margin-bottom: 20px;
 }
 
 .list li {
-  font-size: 22px;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .list li button {
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
   background-color: inherit;
   border: inherit;  
 }
 
+@media screen and (min-width: 470px) {
+  .to-do input {
+    font-size: 22px;
+  }
+  .list li {
+    font-size: 22px;
+  }
+  .list li button {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list li {
+    width: 100%;
+    max-width: 730px;
+  }
+}

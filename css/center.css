@@ -5,20 +5,17 @@
 }
 
 .center .name {
+  max-width: 730px;
   margin-bottom: 30px;
 }
 
-.center  .form, 
-.center  .greetings{
+.center .form, 
+.center .greetings{
   display: none;
 }
 
-.center .form input {
-  appearance: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 36px;
+.center .form input {  
+  font-size: 24px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
   margin-bottom: 20px;
 }
@@ -33,10 +30,21 @@
 }
 
 .center .greetings {
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.center  .showing{
+.center .showing{
   display: block;
+}
+
+@media screen and (min-width: 470px) {
+  .center .form input {
+    font-size: 36px;
+  }
+
+  .center .greetings {
+    font-size: 36px;
+  }
 }
